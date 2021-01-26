@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="budget.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8">
+          <h4>Workings</h4>
+          <input type="text" value="" />
+          <input type="text" />
+          <input type="text" value="month1" />
+          <input type="text" value="month2" />
+          <input type="text" value="month3" />
+          <input type="text" value="month4" />
+          <input type="text" value="month5" /><br />
+          <input type="text" value="Sales" />
+          <input type="text" value="1" />
+          <input type="text" id="sales1" placeholder="100000" />
+          <input type="text" id="sales2" placeholder="110000" />
+          <input type="text" id="sales3" placeholder="90000" />
+          <input type="text" id="sales4" placeholder="80000" />
+          <input type="text" id="sales5" placeholder="100000" /><br />
+          <input type="text" value="credit sales" />
+          <input type="text" id="creditPer" value="0.6" />
+          <input type="text" id="creditSales1" />
+          <input type="text" id="creditSales2" />
+          <input type="text" id="creditSales3" />
+          <input type="text" id="creditSales4" />
+          <input type="text" id="creditSales5" /> <br />
+          <!-- purchases -->
+          <input type="text" value="purchases" />
+          <input type="text" id="purPer" value="0.3" />
+          <input type="text" id="purchases1" />
+          <input type="text" id="purchases2" />
+          <input type="text" id="purchases3" />
+          <input type="text" id="purchases4" />
+          <input type="text" id="purchases5" /><br />
+          <!-- credit purchases -->
+          <input type="text" value="creditpurchases" />
+          <input type="text" id="crePurPer" value="0.4" />
+          <input type="text" id="creditPurchases1" />
+          <input type="text" id="creditPurchases2" />
+          <input type="text" id="creditPurchases3" />
+          <input type="text" id="creditPurchases4" />
+          <input type="text" id="creditPurchases5" /><br /><br />
+          <h4>Cash budget</h4>
+          <h5>Receipts</h5>
+          <input type="text" value="" />
+          <input type="text" value="%" />
+          <input type="text" value="month1" />
+          <input type="text" value="month2" />
+          <input type="text" value="month3" />
+          <input type="text" value="month4" />
+          <input type="text" value="month5" /><br />
+          <input type="text" value="cash sales" />
+          <input type="text" id="per1" value="0.40" />
+          <input type="text" id="cashSales1" />
+          <input type="text" id="cashSales2" />
+          <input type="text" id="cashSales3" />
+          <input type="text" id="cashSales4" />
+          <input type="text" id="cashSales5" /><br />
+          <input type="text" value="1st leg" />
+          <input type="text" id="per2" value="0.2" />
+          <input type="text" id="leg1" />
+          <input type="text" id="leg2" />
+          <input type="text" id="leg3" />
+          <input type="text" id="leg4" />
+          <input type="text" id="leg5" />
+          <br />
+          <input type="text" value="2nd leg" />
+          <input type="text" id="per3" value="0.1" />
+          <input type="text" id="legTwo1" />
+          <input type="text" id="legTwo2" />
+          <input type="text" id="legTwo3" />
+          <input type="text" id="legTwo4" />
+          <input type="text" id="legTwo5" /><br />
+          <input type="text" value="3rd leg" />
+          <input type="text" id="per4" value="0.15" />
+          <input type="text" id="legThree1" />
+          <input type="text" id="legThree2" />
+          <input type="text" id="legThree3" />
+          <input type="text" id="legThree4" />
+          <input type="text" id="legThree5" /><br />
+          <input type="text" value="4th leg" />
+          <input type="text" id="per5" value="0.5" />
+          <input type="text" id="legFour1" />
+          <input type="text" id="legFour2" />
+          <input type="text" id="legFour3" />
+          <input type="text" id="legFour4" />
+          <input type="text" id="legFour5" /><br />
+          <input type="text" id="" value="Income1" />
+          <input type="text" value="" />
+          <input type="text" id="incomeOne1" />
+          <input type="text" id="incomeOne2" />
+          <input type="text" id="incomeOne3" />
+          <input type="text" id="incomeOne4" />
+          <input type="text" id="incomeOne5" /><br />
+          <input type="text" id="" value="Income2" />
+          <input type="text" value="" />
+          <input type="text" id="incomeTwo1" />
+          <input type="text" id="incomeTwo2" />
+          <input type="text" id="incomeTwo3" />
+          <input type="text" id="incomeTwo4" />
+          <input type="text" id="incomeTwo5" /><br />
+          <input type="text" value="Receipts" />
+          <input type="text" />
+          <input type="text" id="receipt1" />
+          <input type="text" id="receipt2" />
+          <input type="text" id="receipt3" />
+          <input type="text" id="receipt4" />
+          <input type="text" id="receipt5" /><br /><br />
+          <!-- cash purchases -->
+          <h5>Payments</h5>
+          <input type="text" value="cashPurchases" />
+          <input type="text" id="per6" value="0.6" />
+          <input type="text" id="cashPurchases1" />
+          <input type="text" id="cashPurchases2" />
+          <input type="text" id="cashPurchases3" />
+          <input type="text" id="cashPurchases4" />
+          <input type="text" id="cashPurchases5" />
+          <br />
+          <input type="text" value="Month1" />
+          <input type="text" id="per7" value="0.5" />
+          <input type="text" id="m1" />
+          <input type="text" id="m2" />
+          <input type="text" id="m3" />
+          <input type="text" id="m4" />
+          <input type="text" id="m5" />
+          <br />
+          <input type="text" value="Month2" />
+          <input type="text" id="per8" value="0.5" />
+          <input type="text" id="mt1" />
+          <input type="text" id="mt2" />
+          <input type="text" id="mt3" />
+          <input type="text" id="mt4" />
+          <input type="text" id="mt5" />
+          <br />
+          <input type="text" value="exp1" />
+          <input type="text" />
+          <input type="text" id="expOne1" placeholder="200" />
+          <input type="text" id="expOne2" placeholder="250" />
+          <input type="text" id="expOne3" placeholder="300" />
+          <input type="text" id="expOne4" placeholder="350" />
+          <input type="text" id="expOne5" placeholder="400" />
+          <br />
+          <input type="text" value="exp2" />
+          <input type="text" />
+          <input type="text" id="expTwo1" placeholder="250" />
+          <input type="text" id="expTwo2" placeholder="250" />
+          <input type="text" id="expTwo3" placeholder="250" />
+          <input type="text" id="expTwo4" placeholder="250" />
+          <input type="text" id="expTwo5" placeholder="250" />
+          <br />
+          <input type="text" value="exp3" />
+          <input type="text" />
+          <input type="text" id="expThree1" placeholder="300" />
+          <input type="text" id="expThree2" placeholder="300" />
+          <input type="text" id="expThree3" placeholder="300" />
+          <input type="text" id="expThree4" placeholder="300" />
+          <input type="text" id="expThree5" placeholder="300" />
+          <br />
+          <input type="text" value="exp4" />
+          <input type="text" />
+          <input type="text" id="expFour1" placeholder="150" />
+          <input type="text" id="expFour2" placeholder="150" />
+          <input type="text" id="expFour3" placeholder="150" />
+          <input type="text" id="expFour4" placeholder="150" />
+          <input type="text" id="expFour5" placeholder="150" />
+          <br />
+          <input type="text" value="exp5" />
+          <input type="text" />
+          <input type="text" id="expFive1" placeholder="200" />
+          <input type="text" id="expFive2" placeholder="200" />
+          <input type="text" id="expFive3" placeholder="200" />
+          <input type="text" id="expFive4" placeholder="200" />
+          <input type="text" id="expFive5" placeholder="200" />
+          <br />
+          <input type="text" value="exp6" />
+          <input type="text" />
+          <input type="text" id="expSix1" placeholder="250" />
+          <input type="text" id="expSix2" placeholder="250" />
+          <input type="text" id="expSix3" placeholder="250" />
+          <input type="text" id="expSix4" placeholder="250" />
+          <input type="text" id="expSix" placeholder="250" />
+          <br />
+          <input type="text" value="Payments" />
+          <input type="text" />
+          <input type="text" id="pay1" />
+          <input type="text" id="pay2" />
+          <input type="text" id="pay3" />
+          <input type="text" id="pay4" />
+          <input type="text" id="pay5" />
+          <br />
+          <input type="text" value="Sur/Def" />
+          <input type="text" />
+          <input type="text" id="sur1" />
+          <input type="text" id="sur2" />
+          <input type="text" id="sur3" />
+          <input type="text" id="sur4" />
+          <input type="text" id="sur5" />
+          <br />
+          <input type="text" value="bal b/d" />
+          <input type="text" />
+          <input type="text" id="bd1" placeholder="500" />
+          <input type="text" id="bd2" />
+          <input type="text" id="bd3" />
+          <input type="text" id="bd4" />
+          <input type="text" id="bd5" />
+          <br />
+          <input type="text" value="bal c/d" />
+          <input type="text" />
+          <input type="text" id="cd1" />
+          <input type="text" id="cd2" />
+          <input type="text" id="cd3" />
+          <input type="text" id="cd4" />
+          <input type="text" id="cd5" />
+          <br /><br />
+          <button id="btnBudget" class="btn btn-outline-dark btn-sm">
+            Calculate
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+    <script src="budget.js"></script>
+  </body>
+</html>
